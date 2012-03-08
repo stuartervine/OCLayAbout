@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccabc7cc-750d-4272-be20-3ec0a6705237" name="Default" comment="" />
+    <list default="true" id="ccabc7cc-750d-4272-be20-3ec0a6705237" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Layouts/AspectRatio.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Layouts/AspectRatio.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Layouts/Border.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Layouts/Border.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test-unit/Layouts/AspectRatioTest.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OCLayAbout.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/OCLayAbout.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Components/UILayoutView.h" afterPath="$PROJECT_DIR$/src/main/Components/UILayoutView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Components/UILayoutView.m" afterPath="$PROJECT_DIR$/src/main/Components/UILayoutView.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Layouts/GridLayout.h" afterPath="$PROJECT_DIR$/src/main/Layouts/GridLayout.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Layouts/GridLayout.m" afterPath="$PROJECT_DIR$/src/main/Layouts/GridLayout.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/OCLayAbout.h" afterPath="$PROJECT_DIR$/src/main/OCLayAbout.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test-unit/Layouts/GridLayoutTest.m" afterPath="$PROJECT_DIR$/src/test-unit/Layouts/GridLayoutTest.m" />
+    </list>
     <ignored path="Funcky.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,76 +36,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GridLayout.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Layouts/GridLayout.h">
+      <file leaf-file-name="Border.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Layouts/Border.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="19" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GridLayout.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Layouts/GridLayout.m">
+      <file leaf-file-name="Border.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Layouts/Border.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OCLayAboutTestCase.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test-unit/Layouts/OCLayAboutTestCase.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OCLayAboutTestCase.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test-unit/Layouts/OCLayAboutTestCase.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="23" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
+            <state line="23" column="0" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1330812295000" expanded="true" signature="30:101" placeholder="..." />
+                <element signature="e#43#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestUnit-Prefix.pch" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test-unit/TestUnit-Prefix.pch">
+      <file leaf-file-name="GridLayout.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Layouts/GridLayout.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="4" column="61" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OCLayAbout-Prefix.pch" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/OCLayAbout-Prefix.pch">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="0" selection-end="85" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GridLayoutTest.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GridLayoutTest.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test-unit/Layouts/GridLayoutTest.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="48" selection-start="459" selection-end="459" vertical-scroll-proportion="0.495283">
+            <state line="43" column="25" selection-start="1793" selection-end="1793" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AspectRatio.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Layouts/AspectRatio.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UILayoutView.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Components/UILayoutView.h">
+      <file leaf-file-name="AspectRatio.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Layouts/AspectRatio.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="4" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
+            <state line="11" column="1" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AspectRatioTest.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test-unit/Layouts/AspectRatioTest.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="96" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GridLayout.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/Layouts/GridLayout.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="567" selection-end="567" vertical-scroll-proportion="0.6014151">
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,7 +121,7 @@
       <file leaf-file-name="UILayoutView.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Components/UILayoutView.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="23" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+            <state line="24" column="16" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,29 +140,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/Sequence.m" />
-        <option value="$PROJECT_DIR$/src/main/enumerators/NSEnumerator+OCTotallyLazy.m" />
-        <option value="$PROJECT_DIR$/src/main/enumerators/MapWithIndexEnumerator.h" />
-        <option value="$PROJECT_DIR$/src/main/enumerators/NSEnumerator+OCTotallyLazy.h" />
-        <option value="$PROJECT_DIR$/src/test-unit/SequenceTest.m" />
-        <option value="$PROJECT_DIR$/src/main/NSArray+OCTotallyLazy.m" />
         <option value="$PROJECT_DIR$/src/main/NSArray+OCTotallyLazy.h" />
-        <option value="$PROJECT_DIR$/src/main/Layouts/GridLayout.h" />
-        <option value="$PROJECT_DIR$/src/main/Layouts/GridLayout.m" />
-        <option value="$PROJECT_DIR$/src/main/Components/UILayoutView.h" />
-        <option value="$PROJECT_DIR$/src/main/Components/UILayoutView.m" />
         <option value="$PROJECT_DIR$/src/test-unit/Layouts/GridLayoutTest.h" />
         <option value="$PROJECT_DIR$/src/test-unit/Layouts/OCLayAboutTestCase.m" />
         <option value="$PROJECT_DIR$/src/test-unit/Layouts/OCLayAboutTestCase.h" />
         <option value="$PROJECT_DIR$/src/test-unit/TestUnit-Prefix.pch" />
+        <option value="$PROJECT_DIR$/src/main/OCLayAbout.h" />
+        <option value="$PROJECT_DIR$/src/main/Components/UILayoutView.h" />
+        <option value="$PROJECT_DIR$/src/main/Components/UILayoutView.m" />
+        <option value="$PROJECT_DIR$/src/main/Layouts/AspectRatio.h" />
+        <option value="$PROJECT_DIR$/src/main/Layouts/AspectRatio.m" />
+        <option value="$PROJECT_DIR$/src/main/Layouts/Border.m" />
+        <option value="$PROJECT_DIR$/src/main/Layouts/GridLayout.h" />
+        <option value="$PROJECT_DIR$/src/test-unit/Layouts/AspectRatioTest.h" />
+        <option value="$PROJECT_DIR$/src/test-unit/Layouts/AspectRatioTest.m" />
         <option value="$PROJECT_DIR$/src/test-unit/Layouts/GridLayoutTest.m" />
+        <option value="$PROJECT_DIR$/src/main/Layouts/GridLayout.m" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
+    <option name="x" value="46" />
     <option name="y" value="22" />
-    <option name="width" value="1399" />
+    <option name="width" value="1394" />
     <option name="height" value="878" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -332,16 +354,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="Errors" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="Errors" />
     <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
-  <component name="RunManager" selected="OCUnit.-[GridLayoutTest testResizesSubviewsToFitIntoGrid]">
-    <configuration default="false" name="OCLayAbout" type="AppleRunConfiguration" factoryName="Application" temporary="true" PROJECT_NAME="OCLayAbout" TARGET_NAME="OCLayAbout" CONFIG_NAME="Debug" DESTINATION_ID="iphoneos_IPHONE_79029D8ZA4S" DEBUGGER="GDB" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+  <component name="RunManager" selected="OCUnit.-[GridLayoutTest testBorders]">
+    <configuration default="false" name="OCLayAbout" type="AppleRunConfiguration" factoryName="Application" temporary="true" PROJECT_NAME="OCLayAbout" TARGET_NAME="OCLayAbout" CONFIG_NAME="Debug" DEBUGGER="GDB" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <method />
     </configuration>
@@ -351,23 +373,44 @@
       <ConfigurationWrapper RunnerId="AppRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="OCUnitRunConfiguration" factoryName="OCUnit" PROJECT_NAME="OCLayAbout" TARGET_NAME="test-unit" CONFIG_NAME="Debug" DESTINATION_ID="iphonesimulator_5.0_1" DEBUGGER="GDB" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+    <configuration default="false" name="GridLayoutTest" type="OCUnitRunConfiguration" factoryName="OCUnit" temporary="true" PROJECT_NAME="OCLayAbout" TARGET_NAME="test-unit" CONFIG_NAME="Debug" DESTINATION_ID="iphonesimulator_5.0_1" DEBUGGER="GDB" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE" TEST_CLASS="GridLayoutTest">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="-[AspectRatioTest testHeightIsCorrectRatio]" type="OCUnitRunConfiguration" factoryName="OCUnit" temporary="true" PROJECT_NAME="OCLayAbout" TARGET_NAME="test-unit" CONFIG_NAME="Debug" DESTINATION_ID="iphonesimulator_5.0_1" DEBUGGER="GDB" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE" TEST_CLASS="AspectRatioTest" TEST_METHOD="testHeightIsCorrectRatio">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="-[GridLayoutTest testBorders]" type="OCUnitRunConfiguration" factoryName="OCUnit" temporary="true" PROJECT_NAME="OCLayAbout" TARGET_NAME="test-unit" CONFIG_NAME="Debug" DESTINATION_ID="iphonesimulator_5.0_1" DEBUGGER="GDB" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE" TEST_CLASS="GridLayoutTest" TEST_METHOD="testBorders">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="OCUnitRunConfiguration" factoryName="OCUnit" PROJECT_NAME="OCLayAbout" TARGET_NAME="test-unit" CONFIG_NAME="Debug" DEBUGGER="GDB" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <method>
         <option name="com.jetbrains.cidr.execution.BuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="com.jetbrains.cidr.execution.StopCurrentSessionBeforeRunTaskProvider$StopCurrentSessionBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="OCLayAbout" TARGET_NAME="OCLayAbout" CONFIG_NAME="Debug" DESTINATION_ID="iphoneos_IPHONE_79029D8ZA4S" DEBUGGER="GDB" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="OCLayAbout" TARGET_NAME="OCLayAbout" CONFIG_NAME="Debug" DEBUGGER="GDB" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <method>
         <option name="com.jetbrains.cidr.execution.BuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="com.jetbrains.cidr.execution.StopCurrentSessionBeforeRunTaskProvider$StopCurrentSessionBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="2">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.OCLayAbout" />
       <item index="1" class="java.lang.String" itemvalue="OCUnit.-[GridLayoutTest testResizesSubviewsToFitIntoGrid]" />
+      <item index="2" class="java.lang.String" itemvalue="OCUnit.GridLayoutTest" />
+      <item index="3" class="java.lang.String" itemvalue="OCUnit.-[AspectRatioTest testHeightIsCorrectRatio]" />
+      <item index="4" class="java.lang.String" itemvalue="OCUnit.-[GridLayoutTest testBorders]" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -411,15 +454,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="22" width="1399" height="878" extended-state="0" />
+    <frame x="46" y="22" width="1394" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32100397" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22892442" sideWeight="0.5957728" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6063408" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2567469" sideWeight="0.5957728" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41875824" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40422723" sideWeight="0.07776163" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40422723" sideWeight="0.91715115" order="2" side_tool="false" content_ui="tabs" />
@@ -537,15 +580,22 @@
           <url>file://$PROJECT_DIR$/src/main/Sequence.m</url>
           <line>149</line>
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/main/Layouts/GridLayout.m</url>
+          <line>21</line>
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/Components/UILayoutView.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="12" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/OCLayAbout.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/OCLayAbout-Prefix.pch">
@@ -578,31 +628,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Layouts/GridLayout.m">
+    <entry file="file://$PROJECT_DIR$/src/main/Components/UILayoutView.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+        <state line="24" column="16" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Layouts/AspectRatio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Layouts/Border.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Layouts/Border.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#43#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Layouts/GridLayout.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="4" column="61" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Components/UILayoutView.m">
+    <entry file="file://$PROJECT_DIR$/src/test-unit/Layouts/AspectRatioTest.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="12" column="96" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test-unit/Layouts/GridLayoutTest.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="48" selection-start="459" selection-end="459" vertical-scroll-proportion="0.495283">
+        <state line="43" column="25" selection-start="1793" selection-end="1793" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Layouts/AspectRatio.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="1" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Layouts/GridLayout.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="567" selection-end="567" vertical-scroll-proportion="0.6014151">
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

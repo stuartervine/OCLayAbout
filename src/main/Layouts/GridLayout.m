@@ -1,33 +1,40 @@
 #import "GridLayout.h"
+#import "AspectRatio.h"
+#import "Border.h"
 
 @implementation GridLayout {
     int columns;
     int columnWidth;
-    int border;
-    int rowHeight;
+    Border *border;
 }
 
-- (GridLayout *)initWithColumns:(int)numberOfColumns border:(int)aBorder rowHeight:(int)aRowHeight {
+- (GridLayout *)initWithColumns:(int)numberOfColumns border:(Border *)aBorder {
     self = [super init];
     columns = numberOfColumns;
-    border = aBorder;
+    border = [aBorder retain];
     columnWidth = (320 / columns);
-    rowHeight = aRowHeight + (border*2);
     return self;
 }
 
 - (void)positionView:(UIView *)subview index:(int)index {
+    AspectRatio *aspectRatio = [AspectRatio fromView:subview];
+    CGFloat rowHeight = [aspectRatio heightFromWidth:columnWidth];
     int currentColumn = index % columns;
     int currentRow = index / columns;
     [subview setFrame:CGRectMake(
-            (currentColumn * columnWidth) + border,
-            (currentRow * rowHeight) + border,
-            columnWidth - (border*2),
-            rowHeight - (border*2))];
+            (currentColumn * columnWidth) + border.left,
+            (currentRow * rowHeight) + border.top,
+            columnWidth - (border.left + border.right),
+            rowHeight - (border.top + border.bottom))];
 }
 
-+ (GridLayout *)columns:(int)numberOfColumns rowHeight:(int)rowHeight border:(int)border {
- return [[[GridLayout alloc] initWithColumns:numberOfColumns border:border rowHeight:rowHeight] autorelease];
+- (void)dealloc {
+    [border release];
+    [super dealloc];
+}
+
++ (GridLayout *)columns:(int)numberOfColumns border:(Border *)border {
+    return [[[GridLayout alloc] initWithColumns:numberOfColumns border:border] autorelease];
 
 }
 

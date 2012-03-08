@@ -6,5 +6,7 @@
 
 - (void)addSubviews:(NSArray *)views;
 
+- (UILayoutView *)resizeToFitSubviews;
+
 + (UILayoutView *)withLayout:(GridLayout *)aLayout;
 @end

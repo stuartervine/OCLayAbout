@@ -1,9 +1,10 @@
 #import <Foundation/Foundation.h>
+#import "Border.h"
 
 @interface GridLayout : NSObject
-- (GridLayout *)initWithColumns:(int)numberOfColumns border:(int)aBorder rowHeight:(int)aRowHeight;
+- (GridLayout *)initWithColumns:(int)numberOfColumns border:(Border *)aBorder;
 
 - (void)positionView:(UIView *)subview index:(int)index;
 
-+ (GridLayout *)columns:(int)numberOfColumns rowHeight:(int)rowHeight border:(int)border;
++ (GridLayout *)columns:(int)numberOfColumns border:(Border *)border;
 @end

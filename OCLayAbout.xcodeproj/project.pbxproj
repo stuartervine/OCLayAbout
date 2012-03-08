@@ -28,15 +28,20 @@
 		BCA43EC61502C4350086E1AB /* OCLayAbout-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = BCA43EC31502C4350086E1AB /* OCLayAbout-Prefix.pch */; };
 		BCA43EC71502C4350086E1AB /* OCLayAbout.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA43EC41502C4350086E1AB /* OCLayAbout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCA43EC71502C4350086E1AF /* UILayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA43EC71502C4350086E1AE /* UILayoutView.m */; };
-		BCA43EC71502C4350086E1B1 /* UILayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA43EC71502C4350086E1B0 /* UILayoutView.h */; };
+		BCA43EC71502C4350086E1B1 /* UILayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA43EC71502C4350086E1B0 /* UILayoutView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCA43EC71502C4350086E1B3 /* GridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA43EC71502C4350086E1B2 /* GridLayout.m */; };
-		BCA43EC71502C4350086E1B5 /* GridLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA43EC71502C4350086E1B4 /* GridLayout.h */; };
+		BCA43EC71502C4350086E1B5 /* GridLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA43EC71502C4350086E1B4 /* GridLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCA43EC71502C4350086E1B8 /* GridLayoutTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA43EC71502C4350086E1B7 /* GridLayoutTest.m */; };
 		BCA43EC71502C4350086E1BA /* OCLayAboutTestCase.h in Resources */ = {isa = PBXBuildFile; fileRef = BCA43EC71502C4350086E1B9 /* OCLayAboutTestCase.h */; };
 		BCA43EC71502C4350086E1BC /* OCLayAboutTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA43EC71502C4350086E1BB /* OCLayAboutTestCase.m */; };
 		BCA43EEA1502CEE80086E1AB /* OCLayAbout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA43EE91502CEE80086E1AB /* OCLayAbout.framework */; };
 		BCA43EEC1502CFC50086E1AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA43EEB1502CFC50086E1AB /* UIKit.framework */; };
 		BCA43EED1502CFD20086E1AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA43EEB1502CFC50086E1AB /* UIKit.framework */; };
+		BCA43EED1502CFD20086E1AD /* AspectRatio.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1AC /* AspectRatio.m */; };
+		BCA43EED1502CFD20086E1AF /* AspectRatio.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1AE /* AspectRatio.h */; };
+		BCA43EED1502CFD20086E1B1 /* Border.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1B0 /* Border.m */; };
+		BCA43EED1502CFD20086E1B3 /* Border.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1B2 /* Border.h */; };
+		BCA43EED1502CFD20086E1B5 /* AspectRatioTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1B4 /* AspectRatioTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +75,11 @@
 		BCA43EC71502C4350086E1BD /* TestUnit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestUnit-Prefix.pch"; sourceTree = "<group>"; };
 		BCA43EE91502CEE80086E1AB /* OCLayAbout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCLayAbout.framework; path = artifacts/OCLayAbout.framework; sourceTree = "<group>"; };
 		BCA43EEB1502CFC50086E1AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BCA43EED1502CFD20086E1AC /* AspectRatio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspectRatio.m; sourceTree = "<group>"; };
+		BCA43EED1502CFD20086E1AE /* AspectRatio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AspectRatio.h; sourceTree = "<group>"; };
+		BCA43EED1502CFD20086E1B0 /* Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Border.m; sourceTree = "<group>"; };
+		BCA43EED1502CFD20086E1B2 /* Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Border.h; sourceTree = "<group>"; };
+		BCA43EED1502CFD20086E1B4 /* AspectRatioTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspectRatioTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +181,10 @@
 		BCA43EC71502C4350086E1AD /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
+				BCA43EED1502CFD20086E1B2 /* Border.h */,
+				BCA43EED1502CFD20086E1B0 /* Border.m */,
+				BCA43EED1502CFD20086E1AE /* AspectRatio.h */,
+				BCA43EED1502CFD20086E1AC /* AspectRatio.m */,
 				BCA43EC71502C4350086E1B4 /* GridLayout.h */,
 				BCA43EC71502C4350086E1B2 /* GridLayout.m */,
 			);
@@ -180,6 +194,7 @@
 		BCA43EC71502C4350086E1B6 /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
+				BCA43EED1502CFD20086E1B4 /* AspectRatioTest.m */,
 				BCA43EC71502C4350086E1BB /* OCLayAboutTestCase.m */,
 				BCA43EC71502C4350086E1B9 /* OCLayAboutTestCase.h */,
 				BCA43EC71502C4350086E1B7 /* GridLayoutTest.m */,
@@ -198,6 +213,8 @@
 				BCA43EC71502C4350086E1AB /* OCLayAbout.h in Headers */,
 				BCA43EC71502C4350086E1B1 /* UILayoutView.h in Headers */,
 				BCA43EC71502C4350086E1B5 /* GridLayout.h in Headers */,
+				BCA43EED1502CFD20086E1AF /* AspectRatio.h in Headers */,
+				BCA43EED1502CFD20086E1B3 /* Border.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +340,8 @@
 			files = (
 				BCA43EC71502C4350086E1AF /* UILayoutView.m in Sources */,
 				BCA43EC71502C4350086E1B3 /* GridLayout.m in Sources */,
+				BCA43EED1502CFD20086E1AD /* AspectRatio.m in Sources */,
+				BCA43EED1502CFD20086E1B1 /* Border.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +351,7 @@
 			files = (
 				BCA43EC71502C4350086E1B8 /* GridLayoutTest.m in Sources */,
 				BCA43EC71502C4350086E1BC /* OCLayAboutTestCase.m in Sources */,
+				BCA43EED1502CFD20086E1B5 /* AspectRatioTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
