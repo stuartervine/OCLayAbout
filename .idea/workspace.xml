@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccabc7cc-750d-4272-be20-3ec0a6705237" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Layouts/AspectRatio.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Layouts/AspectRatio.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Layouts/Border.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Layouts/Border.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test-unit/Layouts/AspectRatioTest.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OCLayAbout.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/OCLayAbout.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Components/UILayoutView.h" afterPath="$PROJECT_DIR$/src/main/Components/UILayoutView.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Components/UILayoutView.m" afterPath="$PROJECT_DIR$/src/main/Components/UILayoutView.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Layouts/GridLayout.h" afterPath="$PROJECT_DIR$/src/main/Layouts/GridLayout.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Layouts/GridLayout.m" afterPath="$PROJECT_DIR$/src/main/Layouts/GridLayout.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/OCLayAbout.h" afterPath="$PROJECT_DIR$/src/main/OCLayAbout.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test-unit/Layouts/GridLayoutTest.m" afterPath="$PROJECT_DIR$/src/test-unit/Layouts/GridLayoutTest.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sh" afterPath="$PROJECT_DIR$/build.sh" />
     </list>
     <ignored path="Funcky.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,10 +95,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GridLayout.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="build.sh" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="49" selection-start="368" selection-end="368" vertical-scroll-proportion="-0.02189781">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GridLayout.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Layouts/GridLayout.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="567" selection-end="567" vertical-scroll-proportion="0.6014151">
+            <state line="21" column="0" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -140,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/NSArray+OCTotallyLazy.h" />
         <option value="$PROJECT_DIR$/src/test-unit/Layouts/GridLayoutTest.h" />
         <option value="$PROJECT_DIR$/src/test-unit/Layouts/OCLayAboutTestCase.m" />
         <option value="$PROJECT_DIR$/src/test-unit/Layouts/OCLayAboutTestCase.h" />
@@ -156,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/test-unit/Layouts/AspectRatioTest.m" />
         <option value="$PROJECT_DIR$/src/test-unit/Layouts/GridLayoutTest.m" />
         <option value="$PROJECT_DIR$/src/main/Layouts/GridLayout.m" />
+        <option value="$PROJECT_DIR$/build.sh" />
       </list>
     </option>
   </component>
@@ -198,7 +195,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="DirectoryView.Xcode" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -216,6 +213,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="OCLayAbout" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OCLayAbout" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OCLayAbout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -692,10 +699,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Layouts/GridLayout.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="567" selection-end="567" vertical-scroll-proportion="0.6014151">
+        <state line="21" column="0" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="49" selection-start="368" selection-end="368" vertical-scroll-proportion="-0.02189781">
+          <folding />
         </state>
       </provider>
     </entry>
