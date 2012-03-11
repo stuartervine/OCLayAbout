@@ -38,10 +38,13 @@
 		BCA43EEC1502CFC50086E1AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA43EEB1502CFC50086E1AB /* UIKit.framework */; };
 		BCA43EED1502CFD20086E1AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA43EEB1502CFC50086E1AB /* UIKit.framework */; };
 		BCA43EED1502CFD20086E1AD /* AspectRatio.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1AC /* AspectRatio.m */; };
-		BCA43EED1502CFD20086E1AF /* AspectRatio.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1AE /* AspectRatio.h */; };
+		BCA43EED1502CFD20086E1AF /* AspectRatio.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1AE /* AspectRatio.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCA43EED1502CFD20086E1B1 /* Border.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1B0 /* Border.m */; };
-		BCA43EED1502CFD20086E1B3 /* Border.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1B2 /* Border.h */; };
+		BCA43EED1502CFD20086E1B3 /* Border.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1B2 /* Border.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCA43EED1502CFD20086E1B5 /* AspectRatioTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1B4 /* AspectRatioTest.m */; };
+		BCA43EED1502CFD20086E1BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1BE /* QuartzCore.framework */; };
+		BCA43EED1502CFD20086E1C1 /* InfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1C0 /* InfiniteScrollView.m */; };
+		BCA43EED1502CFD20086E1C3 /* InfiniteScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1C2 /* InfiniteScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,9 @@
 		BCA43EED1502CFD20086E1B0 /* Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Border.m; sourceTree = "<group>"; };
 		BCA43EED1502CFD20086E1B2 /* Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Border.h; sourceTree = "<group>"; };
 		BCA43EED1502CFD20086E1B4 /* AspectRatioTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspectRatioTest.m; sourceTree = "<group>"; };
+		BCA43EED1502CFD20086E1BE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BCA43EED1502CFD20086E1C0 /* InfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteScrollView.m; sourceTree = "<group>"; };
+		BCA43EED1502CFD20086E1C2 /* InfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteScrollView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 				BC60930E14EC2E9100A59CDD /* OCHamcrestIOS.framework in Frameworks */,
 				BC76518714E0717400559503 /* Foundation.framework in Frameworks */,
 				BC76518514E0715800559503 /* SenTestingKit.framework in Frameworks */,
+				BCA43EED1502CFD20086E1BF /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +135,7 @@
 		BC49C43214E05A8200BE88D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BCA43EED1502CFD20086E1BE /* QuartzCore.framework */,
 				BCA43EEB1502CFC50086E1AB /* UIKit.framework */,
 				BCA43EE91502CEE80086E1AB /* OCLayAbout.framework */,
 				BC60930F14EC2EA200A59CDD /* libOCMock.a */,
@@ -172,6 +180,8 @@
 		BCA43EC71502C4350086E1AC /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				BCA43EED1502CFD20086E1C2 /* InfiniteScrollView.h */,
+				BCA43EED1502CFD20086E1C0 /* InfiniteScrollView.m */,
 				BCA43EC71502C4350086E1B0 /* UILayoutView.h */,
 				BCA43EC71502C4350086E1AE /* UILayoutView.m */,
 			);
@@ -210,11 +220,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCA43EC61502C4350086E1AB /* OCLayAbout-Prefix.pch in Headers */,
+				BCA43EED1502CFD20086E1AF /* AspectRatio.h in Headers */,
+				BCA43EED1502CFD20086E1B3 /* Border.h in Headers */,
+				BCA43EED1502CFD20086E1C3 /* InfiniteScrollView.h in Headers */,
 				BCA43EC71502C4350086E1AB /* OCLayAbout.h in Headers */,
 				BCA43EC71502C4350086E1B1 /* UILayoutView.h in Headers */,
 				BCA43EC71502C4350086E1B5 /* GridLayout.h in Headers */,
-				BCA43EED1502CFD20086E1AF /* AspectRatio.h in Headers */,
-				BCA43EED1502CFD20086E1B3 /* Border.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +353,7 @@
 				BCA43EC71502C4350086E1B3 /* GridLayout.m in Sources */,
 				BCA43EED1502CFD20086E1AD /* AspectRatio.m in Sources */,
 				BCA43EED1502CFD20086E1B1 /* Border.m in Sources */,
+				BCA43EED1502CFD20086E1C1 /* InfiniteScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +513,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -535,6 +548,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				TEST_AFTER_BUILD = YES;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = octest;
 			};

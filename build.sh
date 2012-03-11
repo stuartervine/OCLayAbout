@@ -24,7 +24,7 @@ function runTests() {
 }
 
 function buildRelease() {
-    xcodebuild -target package -sdk iphoneos -configuration Release build
+    xcodebuild -target package -sdk iphoneos -configuration Debig build
     OUT=$?
     if [ $OUT -ne 0 ]
     then
