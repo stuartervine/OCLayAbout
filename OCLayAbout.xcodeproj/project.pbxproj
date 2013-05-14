@@ -21,19 +21,38 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		AD5D02DEC9EB9C15512F4201 /* LayoutProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D02C54BB781F50C146EA1 /* LayoutProperties.m */; };
+		AD5D04805C4D0012339A4ED2 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D0F6C1A829771F3B13E96 /* UIView+Layout.m */; };
+		AD5D04CD9E913E435960ED73 /* HorizontalStackLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D071C8C531F9963732510 /* HorizontalStackLayout.m */; };
+		AD5D04EC9935650FDA79D535 /* UILayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5D0B6E92AB4B3A1839CC4B /* UILayoutView.h */; };
+		AD5D0643CE3FA192715DA9E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5D003E88F1049D21875BD1 /* CoreGraphics.framework */; };
+		AD5D07394426D5E9F9C9377D /* UIView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5D02C11BC7E1EAD7DFBA9D /* UIView+Layout.h */; };
+		AD5D07570273169BC2E5B018 /* LayoutProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5D049F1BA39D2B741F0F92 /* LayoutProperties.h */; };
+		AD5D07CF299B5AD4830F49D1 /* UILayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D07325F9CEDAB045C87B9 /* UILayoutView.m */; };
+		AD5D0814E81581CF5F58C17F /* Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5D03FC2C47AF3C0405A4D3 /* Layout.h */; };
+		AD5D0850139FD27E80503982 /* UIView+Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D0D34CFF7595E26EC6C92 /* UIView+Simple.m */; };
+		AD5D086AA27830A3D5011687 /* Functional.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5D09F8B1735DE8D0FE4D42 /* Functional.h */; };
+		AD5D08A83E1BE567D2F93F09 /* HorizontalStackLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5D0822CE0DF19C69ECD679 /* HorizontalStackLayout.h */; };
+		AD5D08F719C8205FDCC5E0A4 /* Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D0E32F6E43DA3DD2DCB9D /* Functional.m */; };
+		AD5D09D939334255FF1DC43D /* Layouts.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D0EFD0FCCCA1C995FE316 /* Layouts.m */; };
+		AD5D0B60A56166E35DE3FF25 /* VerticalStackLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D0CEF0910FE9F7469A174 /* VerticalStackLayout.m */; };
+		AD5D0C8EFB88E16EF103BE62 /* UIView+Simple.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5D0139100CCBEAB9E7000D /* UIView+Simple.h */; };
+		AD5D0CB4BB87DED81432CBF9 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D0F6C1A829771F3B13E96 /* UIView+Layout.m */; };
+		AD5D0E1943901BCE4511FA9B /* VerticalStackLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5D0C915974CE8A11B55E3D /* VerticalStackLayout.h */; };
+		AD5D0EBB4723256033ED99D5 /* LayoutPropertiesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D0C432439E75D9FDEEE0D /* LayoutPropertiesTest.m */; };
+		AD5D0F31596CF6AEFDD957F9 /* Layouts.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5D092E142891356374BBB2 /* Layouts.h */; };
+		AD5D0FFC298809911F8963C9 /* UIView+Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D0D34CFF7595E26EC6C92 /* UIView+Simple.m */; };
 		BC60930E14EC2E9100A59CDD /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC60930D14EC2E9100A59CDD /* OCHamcrestIOS.framework */; };
 		BC60931014EC2EA200A59CDD /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC60930F14EC2EA200A59CDD /* libOCMock.a */; };
 		BC76518514E0715800559503 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC76518414E0715800559503 /* SenTestingKit.framework */; };
 		BC76518714E0717400559503 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC76518614E0717400559503 /* Foundation.framework */; };
 		BCA43EC61502C4350086E1AB /* OCLayAbout-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = BCA43EC31502C4350086E1AB /* OCLayAbout-Prefix.pch */; };
 		BCA43EC71502C4350086E1AB /* OCLayAbout.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA43EC41502C4350086E1AB /* OCLayAbout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCA43EC71502C4350086E1AF /* UILayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA43EC71502C4350086E1AE /* UILayoutView.m */; };
-		BCA43EC71502C4350086E1B1 /* UILayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA43EC71502C4350086E1B0 /* UILayoutView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCA43EC71502C4350086E1B3 /* GridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA43EC71502C4350086E1B2 /* GridLayout.m */; };
 		BCA43EC71502C4350086E1B5 /* GridLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA43EC71502C4350086E1B4 /* GridLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCA43EC71502C4350086E1B8 /* GridLayoutTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA43EC71502C4350086E1B7 /* GridLayoutTest.m */; };
-		BCA43EC71502C4350086E1BA /* OCLayAboutTestCase.h in Resources */ = {isa = PBXBuildFile; fileRef = BCA43EC71502C4350086E1B9 /* OCLayAboutTestCase.h */; };
-		BCA43EC71502C4350086E1BC /* OCLayAboutTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA43EC71502C4350086E1BB /* OCLayAboutTestCase.m */; };
+		BCA43EC71502C4350086E1BA /* OCLATestCase.h in Resources */ = {isa = PBXBuildFile; fileRef = BCA43EC71502C4350086E1B9 /* OCLATestCase.h */; };
+		BCA43EC71502C4350086E1BC /* OCLATestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA43EC71502C4350086E1BB /* OCLATestCase.m */; };
 		BCA43EEA1502CEE80086E1AB /* OCLayAbout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA43EE91502CEE80086E1AB /* OCLayAbout.framework */; };
 		BCA43EEC1502CFC50086E1AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA43EEB1502CFC50086E1AB /* UIKit.framework */; };
 		BCA43EED1502CFD20086E1AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA43EEB1502CFC50086E1AB /* UIKit.framework */; };
@@ -43,8 +62,6 @@
 		BCA43EED1502CFD20086E1B3 /* Border.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1B2 /* Border.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCA43EED1502CFD20086E1B5 /* AspectRatioTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1B4 /* AspectRatioTest.m */; };
 		BCA43EED1502CFD20086E1BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1BE /* QuartzCore.framework */; };
-		BCA43EED1502CFD20086E1C1 /* InfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1C0 /* InfiniteScrollView.m */; };
-		BCA43EED1502CFD20086E1C3 /* InfiniteScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA43EED1502CFD20086E1C2 /* InfiniteScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +75,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD5D003E88F1049D21875BD1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD5D0139100CCBEAB9E7000D /* UIView+Simple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Simple.h"; sourceTree = "<group>"; };
+		AD5D02C11BC7E1EAD7DFBA9D /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		AD5D02C54BB781F50C146EA1 /* LayoutProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutProperties.m; sourceTree = "<group>"; };
+		AD5D03FC2C47AF3C0405A4D3 /* Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Layout.h; sourceTree = "<group>"; };
+		AD5D049F1BA39D2B741F0F92 /* LayoutProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutProperties.h; sourceTree = "<group>"; };
+		AD5D071C8C531F9963732510 /* HorizontalStackLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalStackLayout.m; sourceTree = "<group>"; };
+		AD5D07325F9CEDAB045C87B9 /* UILayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILayoutView.m; sourceTree = "<group>"; };
+		AD5D0822CE0DF19C69ECD679 /* HorizontalStackLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalStackLayout.h; sourceTree = "<group>"; };
+		AD5D092E142891356374BBB2 /* Layouts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Layouts.h; sourceTree = "<group>"; };
+		AD5D09F8B1735DE8D0FE4D42 /* Functional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Functional.h; sourceTree = "<group>"; };
+		AD5D0B6E92AB4B3A1839CC4B /* UILayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILayoutView.h; sourceTree = "<group>"; };
+		AD5D0C432439E75D9FDEEE0D /* LayoutPropertiesTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutPropertiesTest.m; sourceTree = "<group>"; };
+		AD5D0C915974CE8A11B55E3D /* VerticalStackLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalStackLayout.h; sourceTree = "<group>"; };
+		AD5D0CEF0910FE9F7469A174 /* VerticalStackLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalStackLayout.m; sourceTree = "<group>"; };
+		AD5D0D34CFF7595E26EC6C92 /* UIView+Simple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Simple.m"; sourceTree = "<group>"; };
+		AD5D0E32F6E43DA3DD2DCB9D /* Functional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Functional.m; sourceTree = "<group>"; };
+		AD5D0EFD0FCCCA1C995FE316 /* Layouts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Layouts.m; sourceTree = "<group>"; };
+		AD5D0F6C1A829771F3B13E96 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
 		BC49C43014E05A8200BE88D2 /* OCLayAbout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCLayAbout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC49C43314E05A8200BE88D2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		BC60930D14EC2E9100A59CDD /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrestIOS.framework; path = external/Test/OCHamcrestIOS.framework; sourceTree = "<group>"; };
@@ -68,13 +104,11 @@
 		BCA43EC21502C4350086E1AB /* OCLayAbout-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OCLayAbout-Info.plist"; sourceTree = "<group>"; };
 		BCA43EC31502C4350086E1AB /* OCLayAbout-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCLayAbout-Prefix.pch"; sourceTree = "<group>"; };
 		BCA43EC41502C4350086E1AB /* OCLayAbout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCLayAbout.h; sourceTree = "<group>"; };
-		BCA43EC71502C4350086E1AE /* UILayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILayoutView.m; sourceTree = "<group>"; };
-		BCA43EC71502C4350086E1B0 /* UILayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILayoutView.h; sourceTree = "<group>"; };
 		BCA43EC71502C4350086E1B2 /* GridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridLayout.m; sourceTree = "<group>"; };
 		BCA43EC71502C4350086E1B4 /* GridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridLayout.h; sourceTree = "<group>"; };
 		BCA43EC71502C4350086E1B7 /* GridLayoutTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridLayoutTest.m; sourceTree = "<group>"; };
-		BCA43EC71502C4350086E1B9 /* OCLayAboutTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OCLayAboutTestCase.h; sourceTree = "<group>"; };
-		BCA43EC71502C4350086E1BB /* OCLayAboutTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCLayAboutTestCase.m; sourceTree = "<group>"; };
+		BCA43EC71502C4350086E1B9 /* OCLATestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OCLATestCase.h; sourceTree = "<group>"; };
+		BCA43EC71502C4350086E1BB /* OCLATestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCLATestCase.m; sourceTree = "<group>"; };
 		BCA43EC71502C4350086E1BD /* TestUnit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestUnit-Prefix.pch"; sourceTree = "<group>"; };
 		BCA43EE91502CEE80086E1AB /* OCLayAbout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCLayAbout.framework; path = artifacts/OCLayAbout.framework; sourceTree = "<group>"; };
 		BCA43EEB1502CFC50086E1AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -84,8 +118,6 @@
 		BCA43EED1502CFD20086E1B2 /* Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Border.h; sourceTree = "<group>"; };
 		BCA43EED1502CFD20086E1B4 /* AspectRatioTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspectRatioTest.m; sourceTree = "<group>"; };
 		BCA43EED1502CFD20086E1BE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		BCA43EED1502CFD20086E1C0 /* InfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteScrollView.m; sourceTree = "<group>"; };
-		BCA43EED1502CFD20086E1C2 /* InfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteScrollView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,12 +140,22 @@
 				BC76518714E0717400559503 /* Foundation.framework in Frameworks */,
 				BC76518514E0715800559503 /* SenTestingKit.framework in Frameworks */,
 				BCA43EED1502CFD20086E1BF /* QuartzCore.framework in Frameworks */,
+				AD5D0643CE3FA192715DA9E3 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD5D0FA9532B899DF80D65B5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				AD5D0E32F6E43DA3DD2DCB9D /* Functional.m */,
+				AD5D09F8B1735DE8D0FE4D42 /* Functional.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		BC49C42314E05A5800BE88D2 = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +185,7 @@
 				BC76518614E0717400559503 /* Foundation.framework */,
 				BC76518414E0715800559503 /* SenTestingKit.framework */,
 				BC49C43314E05A8200BE88D2 /* CoreFoundation.framework */,
+				AD5D003E88F1049D21875BD1 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,6 +198,7 @@
 				BCA43EC41502C4350086E1AB /* OCLayAbout.h */,
 				BCA43EC71502C4350086E1AC /* Components */,
 				BCA43EC71502C4350086E1AD /* Layouts */,
+				AD5D0FA9532B899DF80D65B5 /* Util */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -164,6 +208,7 @@
 			children = (
 				BCA43EC71502C4350086E1BD /* TestUnit-Prefix.pch */,
 				BCA43EC71502C4350086E1B6 /* Layouts */,
+				BCA43EED1502CFD20086E1CC /* Components */,
 			);
 			path = "test-unit";
 			sourceTree = "<group>";
@@ -180,10 +225,10 @@
 		BCA43EC71502C4350086E1AC /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				BCA43EED1502CFD20086E1C2 /* InfiniteScrollView.h */,
-				BCA43EED1502CFD20086E1C0 /* InfiniteScrollView.m */,
-				BCA43EC71502C4350086E1B0 /* UILayoutView.h */,
-				BCA43EC71502C4350086E1AE /* UILayoutView.m */,
+				AD5D07325F9CEDAB045C87B9 /* UILayoutView.m */,
+				AD5D0B6E92AB4B3A1839CC4B /* UILayoutView.h */,
+				AD5D0D34CFF7595E26EC6C92 /* UIView+Simple.m */,
+				AD5D0139100CCBEAB9E7000D /* UIView+Simple.h */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -197,6 +242,17 @@
 				BCA43EED1502CFD20086E1AC /* AspectRatio.m */,
 				BCA43EC71502C4350086E1B4 /* GridLayout.h */,
 				BCA43EC71502C4350086E1B2 /* GridLayout.m */,
+				AD5D0822CE0DF19C69ECD679 /* HorizontalStackLayout.h */,
+				AD5D071C8C531F9963732510 /* HorizontalStackLayout.m */,
+				AD5D03FC2C47AF3C0405A4D3 /* Layout.h */,
+				AD5D049F1BA39D2B741F0F92 /* LayoutProperties.h */,
+				AD5D02C54BB781F50C146EA1 /* LayoutProperties.m */,
+				AD5D092E142891356374BBB2 /* Layouts.h */,
+				AD5D0EFD0FCCCA1C995FE316 /* Layouts.m */,
+				AD5D02C11BC7E1EAD7DFBA9D /* UIView+Layout.h */,
+				AD5D0F6C1A829771F3B13E96 /* UIView+Layout.m */,
+				AD5D0C915974CE8A11B55E3D /* VerticalStackLayout.h */,
+				AD5D0CEF0910FE9F7469A174 /* VerticalStackLayout.m */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -205,11 +261,19 @@
 			isa = PBXGroup;
 			children = (
 				BCA43EED1502CFD20086E1B4 /* AspectRatioTest.m */,
-				BCA43EC71502C4350086E1BB /* OCLayAboutTestCase.m */,
-				BCA43EC71502C4350086E1B9 /* OCLayAboutTestCase.h */,
+				BCA43EC71502C4350086E1BB /* OCLATestCase.m */,
+				BCA43EC71502C4350086E1B9 /* OCLATestCase.h */,
 				BCA43EC71502C4350086E1B7 /* GridLayoutTest.m */,
+				AD5D0C432439E75D9FDEEE0D /* LayoutPropertiesTest.m */,
 			);
 			path = Layouts;
+			sourceTree = "<group>";
+		};
+		BCA43EED1502CFD20086E1CC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,10 +286,17 @@
 				BCA43EC61502C4350086E1AB /* OCLayAbout-Prefix.pch in Headers */,
 				BCA43EED1502CFD20086E1AF /* AspectRatio.h in Headers */,
 				BCA43EED1502CFD20086E1B3 /* Border.h in Headers */,
-				BCA43EED1502CFD20086E1C3 /* InfiniteScrollView.h in Headers */,
 				BCA43EC71502C4350086E1AB /* OCLayAbout.h in Headers */,
-				BCA43EC71502C4350086E1B1 /* UILayoutView.h in Headers */,
 				BCA43EC71502C4350086E1B5 /* GridLayout.h in Headers */,
+				AD5D04EC9935650FDA79D535 /* UILayoutView.h in Headers */,
+				AD5D08A83E1BE567D2F93F09 /* HorizontalStackLayout.h in Headers */,
+				AD5D0814E81581CF5F58C17F /* Layout.h in Headers */,
+				AD5D07570273169BC2E5B018 /* LayoutProperties.h in Headers */,
+				AD5D0F31596CF6AEFDD957F9 /* Layouts.h in Headers */,
+				AD5D07394426D5E9F9C9377D /* UIView+Layout.h in Headers */,
+				AD5D0E1943901BCE4511FA9B /* VerticalStackLayout.h in Headers */,
+				AD5D0C8EFB88E16EF103BE62 /* UIView+Simple.h in Headers */,
+				AD5D086AA27830A3D5011687 /* Functional.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +346,7 @@
 		BC49C42514E05A5800BE88D2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = BC49C42814E05A5800BE88D2 /* Build configuration list for PBXProject "OCLayAbout" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -308,7 +379,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCA43EC71502C4350086E1BA /* OCLayAboutTestCase.h in Resources */,
+				BCA43EC71502C4350086E1BA /* OCLATestCase.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,11 +420,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCA43EC71502C4350086E1AF /* UILayoutView.m in Sources */,
 				BCA43EC71502C4350086E1B3 /* GridLayout.m in Sources */,
 				BCA43EED1502CFD20086E1AD /* AspectRatio.m in Sources */,
 				BCA43EED1502CFD20086E1B1 /* Border.m in Sources */,
-				BCA43EED1502CFD20086E1C1 /* InfiniteScrollView.m in Sources */,
+				AD5D07CF299B5AD4830F49D1 /* UILayoutView.m in Sources */,
+				AD5D04CD9E913E435960ED73 /* HorizontalStackLayout.m in Sources */,
+				AD5D02DEC9EB9C15512F4201 /* LayoutProperties.m in Sources */,
+				AD5D09D939334255FF1DC43D /* Layouts.m in Sources */,
+				AD5D04805C4D0012339A4ED2 /* UIView+Layout.m in Sources */,
+				AD5D0B60A56166E35DE3FF25 /* VerticalStackLayout.m in Sources */,
+				AD5D0850139FD27E80503982 /* UIView+Simple.m in Sources */,
+				AD5D08F719C8205FDCC5E0A4 /* Functional.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,8 +439,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCA43EC71502C4350086E1B8 /* GridLayoutTest.m in Sources */,
-				BCA43EC71502C4350086E1BC /* OCLayAboutTestCase.m in Sources */,
+				BCA43EC71502C4350086E1BC /* OCLATestCase.m in Sources */,
 				BCA43EED1502CFD20086E1B5 /* AspectRatioTest.m in Sources */,
+				AD5D0CB4BB87DED81432CBF9 /* UIView+Layout.m in Sources */,
+				AD5D0FFC298809911F8963C9 /* UIView+Simple.m in Sources */,
+				AD5D0EBB4723256033ED99D5 /* LayoutPropertiesTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +475,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -434,6 +515,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -481,6 +563,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -523,6 +606,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

@@ -20,7 +20,7 @@
 }
 
 + (Border *)left:(CGFloat)leftBorder top:(CGFloat)topBorder right:(CGFloat)rightBorder bottom:(CGFloat)bottomBorder {
-    return [[[Border alloc] initWithLeft:leftBorder top:topBorder right:rightBorder bottom:bottomBorder] autorelease];
+    return [[Border alloc] initWithLeft:leftBorder top:topBorder right:rightBorder bottom:bottomBorder];
 }
 
 + (Border *)none {

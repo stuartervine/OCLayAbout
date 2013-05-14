@@ -2,11 +2,19 @@
 #import "GridLayout.h"
 
 @interface UILayoutView : UIView
-- (UILayoutView *)initWithLayout:(GridLayout *)layout;
+- (UILayoutView *)initWithLayout:(id <Layout>)layout fill:(BOOL)fill frame:(CGRect)aFrame;
 
-- (void)addSubviews:(NSArray *)views;
+- (UIView *)addSubviews:(NSArray *)views;
 
-- (UILayoutView *)resizeToFitSubviews;
++ (UILayoutView *)withLayout:(id <Layout>)aLayout fill:(BOOL)fill;
 
-+ (UILayoutView *)withLayout:(GridLayout *)aLayout;
+
++ (UILayoutView *)withLayout:(id <Layout>)aLayout fill:(BOOL)fill frame:(CGRect)aFrame;
+
++ (UILayoutView *)withLayout:(id <Layout>)aLayout fill:(BOOL)fill size:(CGSize)size;
+
+
++ (UILayoutView *)vertical:(Border *)border;
+
++ (UILayoutView *)horizontal:(Border *)border;
 @end

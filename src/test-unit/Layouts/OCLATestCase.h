@@ -3,5 +3,5 @@
 #import <OCHamcrestIOS/OCHamcrestIOS.h>
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface OCLayAboutTestCase : SenTestCase
+@interface OCLATestCase : SenTestCase
 @end

@@ -16,6 +16,6 @@
 }
 
 + (AspectRatio *)fromView:(UIView *)view {
-    return [[[AspectRatio alloc] initWithWidth:view.frame.size.width height:view.frame.size.height] autorelease];
+    return [[AspectRatio alloc] initWithWidth:view.frame.size.width height:view.frame.size.height];
 }
 @end

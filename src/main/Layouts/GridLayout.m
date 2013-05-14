@@ -1,41 +1,48 @@
 #import "GridLayout.h"
 #import "AspectRatio.h"
-#import "Border.h"
 
 @implementation GridLayout {
     int columns;
     int columnWidth;
     Border *border;
+    int index;
+    CGPoint offset;
 }
 
-- (GridLayout *)initWithColumns:(int)numberOfColumns border:(Border *)aBorder {
+- (GridLayout *)initWithColumns:(int)numberOfColumns border:(Border *)aBorder width:(int)width offset:(CGPoint)anOffset {
     self = [super init];
+    index = 0;
     columns = numberOfColumns;
-    border = [aBorder retain];
-    columnWidth = (320 / columns);
+    border = aBorder;
+    columnWidth = (width / columns);
+    offset = anOffset;
     return self;
 }
 
-- (void)positionView:(UIView *)subview index:(int)index {
-    AspectRatio *aspectRatio = [AspectRatio fromView:subview];
+- (void)positionView:(UIView *)view {
+    AspectRatio *aspectRatio = [AspectRatio fromView:view];
     CGFloat rowHeight = [aspectRatio heightFromWidth:columnWidth];
     int currentColumn = index % columns;
     int currentRow = index / columns;
-    [subview setFrame:CGRectMake(
-            (currentColumn * columnWidth) + border.left,
-            (currentRow * rowHeight) + border.top,
+    [view setFrame:CGRectMake(
+            (currentColumn * columnWidth) + border.left + offset.x,
+            (currentRow * rowHeight) + border.top + offset.y,
             columnWidth - (border.left + border.right),
             rowHeight - (border.top + border.bottom))];
+    index++;
 }
 
-- (void)dealloc {
-    [border release];
-    [super dealloc];
+- (void)reset {
+    index = 0;
 }
+
 
 + (GridLayout *)columns:(int)numberOfColumns border:(Border *)border {
-    return [[[GridLayout alloc] initWithColumns:numberOfColumns border:border] autorelease];
+    return [[GridLayout alloc] initWithColumns:numberOfColumns border:border width:320 offset:CGPointZero];
+}
 
++ (GridLayout *)columns:(int)numberOfColumns border:(Border *)border width:(int)width offset:(CGPoint)offset {
+    return [[GridLayout alloc] initWithColumns:numberOfColumns border:border width:width offset:offset];
 }
 
 @end

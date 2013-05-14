@@ -1,47 +1,76 @@
 #import "UILayoutView.h"
+#import "UIView+Simple.h"
+#import "VerticalStackLayout.h"
+#import "HorizontalStackLayout.h"
 
 @implementation UILayoutView {
-    GridLayout *layout;
-    int index;
+    id <Layout> layout;
+    BOOL fillSpaceAvailable;
 }
 
-- (UILayoutView *)initWithLayout:(GridLayout *)aLayout {
-    self = [super init];
-    layout = [aLayout retain];
+- (UILayoutView *)initWithLayout:(id <Layout>)aLayout fill:(BOOL)fill frame:(CGRect)aFrame {
+    self = [super initWithFrame:aFrame];
+    layout = aLayout;
+    fillSpaceAvailable = fill;
     return self;
 }
 
 - (void)addSubview:(UIView *)view {
-    [layout positionView:view index:index++];
     [super addSubview:view];
+    [self sizeToFit];
 }
 
--(void)addSubviews:(NSArray *)views {
-    for(UIView *view in views) {
+- (UIView *)addSubviews:(NSArray *)views {
+    for (UIView *view in views) {
         [self addSubview:view];
     }
-}
-
--(UILayoutView *)resizeToFitSubviews {
-    float w = 0;
-    float h = 0;
-
-    for (UIView *v in [self subviews]) {
-        float fw = v.frame.origin.x + v.frame.size.width;
-        float fh = v.frame.origin.y + v.frame.size.height;
-        w = MAX(fw, w);
-        h = MAX(fh, h);
-    }
-    [self setFrame:CGRectMake(self.frame.origin.x, self.frame.origin.y, w, h)];
     return self;
 }
 
-- (void)dealloc {
-    [layout release];
-    [super dealloc];
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    [self applyLayout];
 }
 
-+ (UILayoutView *)withLayout:(GridLayout *)aLayout {
-    return [[[UILayoutView alloc] initWithLayout:aLayout] autorelease];
+- (void)applyLayout {
+    [layout reset];
+    for (UIView *subview in self.subviews) {
+        [layout positionView:subview];
+    }
+}
+
+- (UILayoutView *)removeSubviews {
+    [super removeSubviews];
+    [layout reset];
+    return self;
+}
+
++ (UILayoutView *)withLayout:(id <Layout>)aLayout fill:(BOOL)fill {
+    return [[UILayoutView alloc] initWithLayout:aLayout fill:fill frame:CGRectZero];
+}
+
++ (UILayoutView *)withLayout:(id <Layout>)aLayout fill:(BOOL)fill frame:(CGRect)aFrame {
+    return [[UILayoutView alloc] initWithLayout:aLayout fill:fill frame:aFrame];
+}
+
++ (UILayoutView *)withLayout:(id <Layout>)aLayout fill:(BOOL)fill size:(CGSize)size {
+    return [[UILayoutView alloc] initWithLayout:aLayout fill:fill frame:CGRectMake(0, 0, size.width, size.height)];
+}
+
+- (void)willMoveToSuperview:(UIView *)newSuperview {
+    if (fillSpaceAvailable) {
+        self.frame = newSuperview.bounds;
+    }
+    [super willMoveToSuperview:newSuperview];
+//    [self applyLayout];
+}
+
++ (UILayoutView *)vertical:(Border *)border {
+    return [UILayoutView withLayout:[VerticalStackLayout create:border] fill:NO];
+}
+
++ (UILayoutView *)horizontal:(Border *)border {
+    return [UILayoutView withLayout:[HorizontalStackLayout create:border] fill:YES];
+
 }
 @end
